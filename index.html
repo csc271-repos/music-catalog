@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Our Favorite Music Catalog</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Chewy' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <h1>Our Favorite Music Catalog</h1>
+        </header>
+
+        <section class="record-catalog">
+
+            <!-- Top Record (Single) -->
+            <div class="record-card single-card">
+                <div class="record-inner">
+                    <!-- TO DO: Update the image link and alt text, and artist name to your group's favorite musical artist! -->
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQpZaeWxczipxrTdSIThz5hmwrRYhEeeAl5A&s" alt="Artist 1" class="record-image">
+                    <div class="artist-name">Artist 1</div>
+                </div>
+            </div>
+
+            <!-- Second Row (Two Records) -->
+            <div class="record-row">
+              
+                <div class="record-card" data-track-id="0COqiPhxzoWICwFCS4eZcp">
+                    <div class="record-inner">
+                        <!-- TO DO: Update the image link and alt text, and artist name to your group's favorite musical artist! -->
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQpZaeWxczipxrTdSIThz5hmwrRYhEeeAl5A&s" alt="Artist 2" class="record-image">
+                        <div class="artist-name">Artist 2</div>
+                    </div>
+                </div>
+
+                <div class="record-card" data-track-id="4QWLhGVitrCCysR3ugX9Xw">
+                    <div class="record-inner">
+                        <!-- TO DO: Update the image link and alt text, and artist name to your group's favorite musical artist! -->
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQpZaeWxczipxrTdSIThz5hmwrRYhEeeAl5A&s" alt="Artist 3" class="record-image">
+                        <div class="artist-name">Artist 3</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Third Row (Three Records) -->
+            <div class="record-row">
+              
+                <div class="record-card" data-track-id="10ASBwZsp7oUUDsJEYz3uS">
+                    <div class="record-inner">
+                        <!-- TO DO: Update the image link and alt text, and artist name to EACH of your group member's favorite musical artist! -->
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQpZaeWxczipxrTdSIThz5hmwrRYhEeeAl5A&s" alt="Artist 4" class="record-image">
+                        <div class="artist-name">Artist 4</div>
+                    </div>
+                </div>
+
+                <div class="record-card" data-track-id="56sk7jBpZV0CD31G9hEU3b">
+                    <div class="record-inner">
+                        <!-- TO DO: Update the image link and alt text, and artist name to EACH of your group member's favorite musical artist! -->
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQpZaeWxczipxrTdSIThz5hmwrRYhEeeAl5A&s" alt="Artist 5" class="record-image">
+                        <div class="artist-name">Artist 5</div>
+                    </div>
+                </div>
+
+                <div class="record-card" data-track-id="2nLtzopw4rPReszdYBJU6h">
+                    <div class="record-inner">
+                        <!-- TO DO: Update the image link and alt text, and artist name to EACH of your group member's favorite musical artist! -->
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQpZaeWxczipxrTdSIThz5hmwrRYhEeeAl5A&s" alt="Artist 6" class="record-image">
+                        <div class="artist-name">Artist 6</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="spotify-player-container">
+        <!-- Spotify Embedded Player -->
+        <iframe id="spotify-player" src="https://open.spotify.com/embed/track/4vIgJAk9aUg" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+        <!-- Button to close player -->
+        <button id="close-player" class="close-button">X</button>
+    </div>
+
+    <!-- Included scripts to edit -->
+    <script src="js/html-event-handlers.js"></script>
+    <script src="js/traditional-dom-event-handlers.js"></script>
+    <script src="js/event-listeners.js"></script>
+
+</body>
+</html>
