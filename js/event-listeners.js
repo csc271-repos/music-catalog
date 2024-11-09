@@ -11,7 +11,7 @@ var close_btn = document.getElementById('close-player');
       1) Copy and paste BOTH functions you wrote back in the html-event-handlers.js script.
 
       2) Loop through all records in the third row. For each record, do the following:
-         a) Add an event listener so 
+         a) Add an event listener so that when clicked 
       
 */
 
